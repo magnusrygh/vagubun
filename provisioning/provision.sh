@@ -1,7 +1,7 @@
 echo "Installing Apache and setting up link to /vagrant"
 
 if [ -f "/var/vagrant_provision" ] then
-  exit(0)
+  exit 0
 if
 
 apt-get update >/dev/null 2>&1
